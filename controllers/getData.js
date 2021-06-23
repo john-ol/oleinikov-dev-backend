@@ -1,6 +1,6 @@
 const { Telegraf } = require('telegraf')
 
-const bot = require('../../botSettings/settings')
+const bot = require('../botSettings/settings')
 const CHAT_ID = process.env.CHAT_ID
 
 const getData = async (req, res) => {

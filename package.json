@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Server for contact form",
-  "main": "src/index.js",
+  "main": "index.js",
   "proxy": "http://localhost:5000",
   "scripts": {
     "start": "nodemon index.js"
